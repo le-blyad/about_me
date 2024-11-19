@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+.my__photo {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 20%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my__photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.my__name {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.about_me {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.underlined-link {
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.underlined-link:hover {
+    color: #dedede;
+    text-decoration: none;
+}
