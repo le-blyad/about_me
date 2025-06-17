@@ -53,3 +53,10 @@ body {
     color: #dedede;
     text-decoration: none;
 }
+
+.sql__bullshit {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
